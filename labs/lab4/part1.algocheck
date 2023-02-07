@@ -1,0 +1,7 @@
+I will make a picture by creating an object with all the details I need, such as the size, color, and position of the picture.
+
+I will use these details in my program to actually draw the picture on the screen.
+
+I will create a special function that will take my object as input and draw the picture based on the details in the object.
+
+Finally, I will call the function and give it my object as input, so that it will draw the picture on the screen.

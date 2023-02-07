@@ -1,0 +1,8 @@
+Create two objects for the tall rectangles
+Give each object properties for x, y, width, and height
+Set the x properties of the objects so that one rectangle appears on the left side of the screen and the other on the right side.
+In the draw function, draw both rectangles to the screen based on their properties.
+Check if the up arrow key is pressed.
+If the up arrow key is pressed, make the first rectangle move up and the second rectangle move down.
+Check if the down arrow key is pressed.
+If the down arrow key is pressed, make the first rectangle move down and the second rectangle move up.

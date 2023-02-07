@@ -1,0 +1,11 @@
+First, I'll create an object to store all the information about the ball. This object will have properties such as x and y position, size, color, velocity, etc.
+
+Next, I'll set the initial values for each of these properties. For example, I might set the ball's starting position to the center of the canvas, set its size to 20 pixels, set its color to red, and set its velocity to a value such as (5, 5).
+
+In my update function, I'll use the values stored in the ball object to update its position. I'll do this by adding the velocity to the x and y position. This will move the ball in each frame of the animation.
+
+To make the ball bounce, I'll check if it has hit a wall. If it has, I'll change its velocity to be in the opposite direction. For example, if it hits the top wall, I'll change its y velocity to be negative.
+
+I'll repeat steps 3 and 4 in each frame of the animation, using the updated values stored in the ball object to determine its new position and velocity.
+
+
