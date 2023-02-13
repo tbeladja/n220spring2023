@@ -1,0 +1,4 @@
+Start by creating a square-shaped box on the web page with green color using HTML and CSS.
+In JavaScript, make a variable to keep track of the height and width of the box.
+Then, when someone clicks on the box, make the box grow in size by 10% each time it's clicked. To do this, multiply the height and width of the box by 1.1.
+Lastly, change the height and width of the box to reflect its new size by using the updated variable with "px" added to it.
