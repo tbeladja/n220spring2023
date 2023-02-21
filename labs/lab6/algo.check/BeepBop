@@ -1,0 +1,1 @@
+To write a loop that runs 25 times and writes the iterand out onto the page inside of a div element, with "beep", "bop", or "beepbop" printed instead of certain numbers, you would use an if/else statement inside the loop to determine what to write. The loop variable would start at 1 and increment by 1 on each iteration. 

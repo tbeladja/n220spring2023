@@ -1,0 +1,1 @@
+To create a string array with five of your favorite things and then write each one to a div element followed by the string ", is one of my favorite things.", you would use a for loop to iterate over the array and concatenate each string with the additional string.

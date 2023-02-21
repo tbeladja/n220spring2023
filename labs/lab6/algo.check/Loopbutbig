@@ -1,0 +1,1 @@
+To display the numbers 1000, 2000, 3000, 4000, and 5000 in a div using a loop, you would use a for loop. Inside the loop, you would set the innerHTML of the div to the current value of the loop variable multiplied by 1000. The loop should run five times, with the loop variable starting at 1 and incrementing by 1 on each iteration.
