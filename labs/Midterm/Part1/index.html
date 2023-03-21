@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Repeated Words Loop</title>
+</head>
+<body>
+  <p id="output"></p>
+
+  <script>
+    const words = ["cirro", "cumulo", "nimbo", "strato"];
+
+    for (let i = 0; i < words.length; i++) {
+      document.getElementById("output").textContent += words[i].toUpperCase() + " " + words[i].toUpperCase() + " ";
+    }
+  </script>
+</body>
+</html>
