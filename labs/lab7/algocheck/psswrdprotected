@@ -1,0 +1,15 @@
+Create an HTML file with two input fields, a button, and a div element.
+
+Link the HTML file to a JavaScript file using a script tag.
+
+Define a checkCredentials() function in the JavaScript file.
+
+Get the username and password input values using document.getElementById().value.
+
+Check if the input values match "Username" and "Password" using an if statement.
+
+If the values match, set the div element's text content to "Success" using document.getElementById().innerHTML.
+
+If the values do not match, set the div element's text content to "Wrong information".
+
+Test the application by entering "Username" and "Password" into the input fields and clicking the button to see the result in the div element.

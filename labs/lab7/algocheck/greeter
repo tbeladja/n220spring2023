@@ -1,0 +1,13 @@
+Create an HTML file with an input field and a button.
+
+Give the input field an id attribute of "name" so that we can easily reference it in our JavaScript code.
+
+Add an onclick attribute to the button that calls a JavaScript function.
+
+In the JavaScript code, define a function called greet that retrieves the value of the input field with an id of name.
+
+Store the value of the input field in a variable called name.
+
+Use string interpolation to log the message "Hello {Name}" to the console, where {Name} is the value of the name variable.
+
+Test the code by opening the HTML file in a web browser, entering a name into the input field, and clicking the button to see the greeting message logged to the console.

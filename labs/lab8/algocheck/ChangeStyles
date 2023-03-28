@@ -1,0 +1,11 @@
+Create three div elements that are styled to be square and red using CSS. Assign each div a unique ID to reference it later in your JavaScript code.
+
+Create a function called "changeStyle" that takes an HTMLElement as an input.
+
+In the "changeStyle" function, modify the CSS of the input HTMLElement to have a blue background color and a smaller width than height.
+
+Create three button elements with an onclick event listener that calls a function when clicked.
+
+Write a function for each button that uses the ID of the corresponding div to retrieve the element from the DOM.
+
+In each of the button functions, pass the div element as an argument to the "changeStyle" function to update its style.

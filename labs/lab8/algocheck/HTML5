@@ -1,0 +1,11 @@
+Create a form element that includes an input field and a button. Assign an ID to the input field to reference it later in your JavaScript code.
+
+Add a div element that also has an ID. You will use this element to display the result of the calculation.
+
+In your JavaScript code, create a function that takes a number as an argument and returns true if it is divisible by 7 and false if it is not.
+
+In the onclick event listener for the button, use the ID of the input field to retrieve the number entered by the user.
+
+Pass the number to the divisible function you created earlier to determine if it is divisible by 7.
+
+Use conditional statements to update the text content of the div element based on whether the number is divisible by 7 or not.

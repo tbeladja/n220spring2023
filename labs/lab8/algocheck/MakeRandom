@@ -1,0 +1,11 @@
+Create a button element that includes an onclick event listener that calls a function when clicked.
+
+Add a div element that has an ID. This element will be used to display the randomly generated number.
+
+In your JavaScript code, write a function that generates a random whole number between 0 and 10 using the Math.random() and Math.floor() methods.
+
+Write a second function that handles the onclick event when the button is clicked.
+
+In the onclick event handler function, call the function that generates the random number.
+
+Use the ID of the div element to update its text content with the randomly generated number.

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Greeter</title>
+  </head>
+  <body>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name">
+    <button onclick="greet()">Greet</button>
+    <script>
+      function greet() {
+        const nameInput = document.getElementById('name');
+        const name = nameInput.value;
+        console.log(`Hello ${name}`);
+      }
+    </script>
+  </body>
+</html>

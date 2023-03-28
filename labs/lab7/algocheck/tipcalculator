@@ -1,0 +1,20 @@
+Create an HTML file with a label, an input field, and a button.
+
+Give the input field an id attribute of "bill" so that we can easily reference it in our JavaScript code.
+
+Add an onclick attribute to the button that calls a JavaScript function called calculate.
+
+In the JavaScript code, define the calculate function that retrieves the value of the input field with an id of bill.
+
+Convert the input value to a float using parseFloat.
+
+Check if the input value is not a number using the isNaN() function. If it's not a number, log an error message to the console 
+and return from the function.
+
+If the input value is valid, calculate the tip amount by multiplying the bill by 0.15 and store it in a variable called tipAmount.
+
+Calculate the total amount by adding the bill and the tip amount, and store it in a variable called totalAmount.
+
+Use string interpolation to log the message "Tip: $X. Total: $X" to the console, where X is the value of tipAmount and totalAmount rounded to 2 decimal places using the .toFixed(2) method.
+
+Test the code by opening the HTML file in a web browser, entering a bill amount into the input field, and clicking the button to see the tip and total amounts logged to the console.
