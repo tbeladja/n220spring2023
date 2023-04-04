@@ -1,0 +1,6 @@
+Create a new HTML file with a text field and a button that will trigger the checking function.
+Write a JavaScript function that will be triggered by the button click. This function should get the value of the input text field and split it into an array using the split() method and passing the comma as the separator.
+Define a variable to keep track of the number of consecutive 1's found and initialize it to 0.
+Use a loop to iterate over the array and check if the current element is equal to 1. If it is, increment the consecutive 1's counter. If it's not, reset the counter to 0.
+Inside the loop, check if the consecutive 1's counter is equal to 3. If it is, display the word "winner" on the document and exit the loop. If it's not, continue iterating over the array.
+If the loop finishes and no consecutive 1's of length 3 are found, display the word "not winner" on the document.

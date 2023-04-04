@@ -1,0 +1,7 @@
+Begin by creating a new project in your preferred programming language.
+Create a user interface that allows the user to enter a list of comma-separated numbers.
+When the user clicks the "submit" button, the program should read the input and split it into an array of numbers using the comma as the separator.
+The program should then convert the string versions of the numbers into actual number versions using a built-in function or a custom function.
+Next, the program should loop through the array and sum up the values.
+After summing up the values, the program should calculate the average of the array by dividing the sum by the length of the array.
+Finally, the program should display the average and the sum to the user, and remove the text from the input so the user can enter new numbers.
