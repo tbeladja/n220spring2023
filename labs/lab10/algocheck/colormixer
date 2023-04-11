@@ -1,0 +1,8 @@
+Create a new HTML document.
+Inside the body tag, create a div element with a starting background color of black. This will be the div that changes color.
+Create another div element to display the current calculated RGB color.
+Create 9 button elements, 3 for each color (red, green, and blue). Give each button a data attribute to store the amount by which it should change the color (e.g. data-color="1" for the +1 button).
+Create three buttons for each color, one for each amount (+1, +5, and +10). Give each button a data attribute to store the color it represents (e.g. data-color="red").
+Write an event listener function for each button that updates the background color of the div by adding or subtracting the value stored in the data attribute from the current RGB value.
+Add the event listener to each button using the addEventListener() method with a click event. Use the same event listener function for all buttons of the same color and amount.
+Update the text content of the second div to display the current calculated RGB color.

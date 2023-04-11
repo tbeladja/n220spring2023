@@ -1,0 +1,6 @@
+Create a new HTML document.
+Inside the body tag, create a div element to display the answer to the question when a button is clicked.
+Create 3 button elements, each with a data-answer attribute that lists the answer to the question asked by the button.
+Write an event listener function that gets the value of the data-answer attribute of the button that was clicked and displays it in the div element created in step 2.
+Add the event listener to each button using the addEventListener() method with a click event. Use the same event listener function for all buttons.
+Write the questions that each button will ask and include them in the button elements as text content.

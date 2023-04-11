@@ -1,0 +1,6 @@
+Create a new HTML document.
+Inside the body tag, create a div element with a class of "row".
+Inside the "row" div, create three div elements with a class of "square". Give each of them a width and height of 200px and a margin of 5px. Float them left so they appear in a row.
+Add a data attribute to each square div to store the color it should change to when clicked (e.g. data-color="red").
+Write an event listener function that changes the background color of the clicked element to the color stored in its data attribute.
+Add the event listener to each square div using the addEventListener() method with a click event. Use the same event listener function for all three divs.
